@@ -1,4 +1,4 @@
-# test_add_remove_product.py
+
 import json
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -9,7 +9,7 @@ from pages.cart_page import CartPage
 from utils.config import logger, test_step_logger
 
 def test_add_and_remove_product_from_cart(driver, config):
-    test_step_logger.log_step("Starting test: Add and Remove Product")
+    test_step_logger.log_step("Starting test: Search, Add and Remove Product")
     with open('data/test_data.json') as f:
         data = json.load(f)
 
