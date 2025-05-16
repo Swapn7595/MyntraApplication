@@ -40,7 +40,7 @@ MyntraApplication/
 ### Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/<your-username>/MyntraApplication.git
+   git clone https://github.com/Swapn7595/MyntraApplication.git
    cd MyntraApplication
    ```
 2. Create and activate a virtual environment:
